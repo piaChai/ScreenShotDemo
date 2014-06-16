@@ -18,6 +18,8 @@
 		07E1078119498FB000B38F4C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07E1076019498FB000B38F4C /* Cocoa.framework */; };
 		07E1078919498FB000B38F4C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07E1078719498FB000B38F4C /* InfoPlist.strings */; };
 		07E1078B19498FB000B38F4C /* ScreenShotDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E1078A19498FB000B38F4C /* ScreenShotDemoTests.m */; };
+		07E107961949900700B38F4C /* ImageDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E107951949900700B38F4C /* ImageDocument.m */; };
+		07E1079C1949971F00B38F4C /* ImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E1079B1949971F00B38F4C /* ImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,10 @@
 		07E1078619498FB000B38F4C /* ScreenShotDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScreenShotDemoTests-Info.plist"; sourceTree = "<group>"; };
 		07E1078819498FB000B38F4C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		07E1078A19498FB000B38F4C /* ScreenShotDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScreenShotDemoTests.m; sourceTree = "<group>"; };
+		07E107941949900700B38F4C /* ImageDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDocument.h; sourceTree = "<group>"; };
+		07E107951949900700B38F4C /* ImageDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageDocument.m; sourceTree = "<group>"; };
+		07E1079A1949971F00B38F4C /* ImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageView.h; sourceTree = "<group>"; };
+		07E1079B1949971F00B38F4C /* ImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +124,10 @@
 				07E1077219498FB000B38F4C /* CVTAppDelegate.h */,
 				07E1077319498FB000B38F4C /* CVTAppDelegate.m */,
 				07E1077519498FB000B38F4C /* MainMenu.xib */,
+				07E107941949900700B38F4C /* ImageDocument.h */,
+				07E107951949900700B38F4C /* ImageDocument.m */,
+				07E1079A1949971F00B38F4C /* ImageView.h */,
+				07E1079B1949971F00B38F4C /* ImageView.m */,
 				07E1077819498FB000B38F4C /* Images.xcassets */,
 				07E1076719498FB000B38F4C /* Supporting Files */,
 			);
@@ -253,8 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07E1079C1949971F00B38F4C /* ImageView.m in Sources */,
 				07E1077419498FB000B38F4C /* CVTAppDelegate.m in Sources */,
 				07E1076D19498FB000B38F4C /* main.m in Sources */,
+				07E107961949900700B38F4C /* ImageDocument.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
